@@ -1,0 +1,81 @@
+.login__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.megafon_logo {
+  background-image: url('https://lk.megafon.ru/login/media/logo.svg');
+  display: inline-block;
+  vertical-align: middle;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: 145px auto;
+  overflow: hidden;
+  padding: 0;
+  line-height: 0;
+  font-size: 0;
+  font-style: normal;
+  width: 145px;
+  height: 26px;
+}
+.login__box {
+  position: relative;
+  width: 400px;
+  background: #FFF;
+  box-shadow: 0 0 16px rgba(0,0,0,.15);
+}
+.login__content {
+  padding: 35px 80px 37px 80px;
+  input {
+    padding: 12px 15px 13px 15px;
+    color: #333;
+    font-size: 14px;
+    vertical-align: middle;
+    line-height: 23px;
+    height: 23px;
+    width: calc(100% - 32px);
+  }
+  p {
+    text-align: left;
+    color: #333;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    padding-bottom: 7px;
+    margin: 0;
+  }
+}
+.login__inputs {
+  padding-top: 24px;
+}
+.input__box {
+  padding-bottom: 16px;
+}
+.button {
+  width: 100%;
+  height: 46px;
+  border-radius: 24px;
+  background: #00b956;
+  border: 1px #00b956 solid;
+  cursor: pointer;
+  color: #FFFFFF;
+  margin-top: 8px;
+  margin-bottom: 24px;
+  text-decoration: none;
+  &:hover {
+    background: #33c778;
+    border: 1px #33c778 solid;
+  }
+  &:active {
+    background: #00a04a;
+    border: 1px #00a04a solid;
+  }
+  span {
+    text-align: center;
+    display: table;
+    user-select: none;
+    width: 100%;
+    line-height: 46px;
+  }
+}

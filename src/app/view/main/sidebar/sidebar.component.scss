@@ -1,0 +1,31 @@
+.sidebar {
+  display: flex;
+  height: 100vh;
+}
+
+.button {
+  height: 46px;
+  width: 80%;
+  align-self: end;
+  border-radius: 24px;
+  background: #00b956;
+  border: 1px #00b956 solid;
+  cursor: pointer;
+  color: #FFFFFF;
+  margin: 8px auto 24px;
+  &:hover {
+    background: #33c778;
+    border: 1px #33c778 solid;
+  }
+  &:active {
+    background: #00a04a;
+    border: 1px #00a04a solid;
+  }
+  span {
+    text-align: center;
+    display: table;
+    user-select: none;
+    width: 100%;
+    line-height: 46px;
+  }
+}
