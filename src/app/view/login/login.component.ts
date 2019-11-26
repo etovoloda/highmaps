@@ -22,6 +22,7 @@ export class LoginComponent implements OnInit {
   // comment for new commit
   // new remote comment
   // toying with branches
+  // second remote commit after pull
 
   constructor(
     private store: Store<AppState>,
