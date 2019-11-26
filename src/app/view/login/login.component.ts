@@ -6,7 +6,6 @@ import {AppState, isAuthState} from '../../store/app.state';
 import {Login} from '../../store/actions/authentication.actions';
 import {Router} from '@angular/router';
 import {AuthenticationService} from '../../core/authentication.service';
-import {MapDataService} from '../../core/mapdata.service';
 
 @Component({
   selector: 'app-login',
@@ -19,12 +18,13 @@ export class LoginComponent implements OnInit {
   user: User = {};
   getState: Observable<any>;
   errorMessage: string = null;
+  newVariable: string;
+  // comment for new commit
 
   constructor(
     private store: Store<AppState>,
     private auth: AuthenticationService,
     private router: Router,
-    private map: MapDataService
   ) {
     this.getState = this.store.select(isAuthState);
   }
