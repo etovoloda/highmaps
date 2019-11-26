@@ -13,6 +13,9 @@ export class SidebarComponent implements OnInit {
   ) { }
 
   ngOnInit() {}
+  // new remote commit
+  // second row
+  // just for better looks
 
   navLogout() {
     this.router.navigateByUrl('/logout');
