@@ -20,6 +20,8 @@ export class LoginComponent implements OnInit {
   errorMessage: string = null;
   newVariable: string;
   // comment for new commit
+  // new remote comment
+  // toying with branches
 
   constructor(
     private store: Store<AppState>,

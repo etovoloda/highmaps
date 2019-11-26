@@ -50,6 +50,7 @@ export class MapComponent implements OnInit {
   ngOnInit() {
     this.initMap(this.getMap.originalData());
     // this.loadData();
+    // this component needs upgrade
   }
 
   initMap(map) {
